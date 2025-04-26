@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E51E577B-1754-B5DF-53DD-399C632A3ECB" name="Pesquisa_Satisfacao">
+<createdBy>mathe</createdBy>
+<createdTime>2025-04-25 23:28:11 UTC</createdTime>
+<ownerDesignName>Conceito</ownerDesignName>
+<engineerTo>
+<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="E8FD8726-B779-123C-F46E-A9E44FCED5CD">
+<createdBy>mathe</createdBy>
+<createdTime>2025-04-25 23:28:25 UTC</createdTime>
+<ownerDesignName>Conceito</ownerDesignName>
+<engineerTo>
+<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nota_App" id="0545D126-7732-1833-7E44-92AB54249751">
+<createdBy>mathe</createdBy>
+<createdTime>2025-04-25 23:28:29 UTC</createdTime>
+<ownerDesignName>Conceito</ownerDesignName>
+<engineerTo>
+<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nota_Site" id="8D6637B4-57A8-D915-FCD5-9B0CED8BDD80">
+<createdBy>mathe</createdBy>
+<createdTime>2025-04-25 23:28:46 UTC</createdTime>
+<ownerDesignName>Conceito</ownerDesignName>
+<engineerTo>
+<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nota_Suporte" id="105BA014-BBBF-8611-DB4A-00F658B4FD50">
+<createdBy>mathe</createdBy>
+<createdTime>2025-04-25 23:28:53 UTC</createdTime>
+<ownerDesignName>Conceito</ownerDesignName>
+<engineerTo>
+<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data" id="2F68BFF5-B168-BAC7-2C95-575937BB4E87">
+<createdBy>mathe</createdBy>
+<createdTime>2025-04-25 23:29:04 UTC</createdTime>
+<ownerDesignName>Conceito</ownerDesignName>
+<engineerTo>
+<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="C5037582-D570-0CBE-C646-0BA26DE9D38C">
+<createdBy>mathe</createdBy>
+<createdTime>2025-04-25 23:47:50 UTC</createdTime>
+<generatorID>85B4F21B-58E5-0EB0-C708-EC1673F78CAE</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<engineerTo>
+<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C5334887-65D2-95A6-CD2D-C30D86FF8542</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D4D6334C-CB04-1AAE-0E80-3C1CF0DA3DBC" name="Pesquisa_Satisfacao PK">
+<createdBy>mathe</createdBy>
+<createdTime>2025-04-25 23:28:28 UTC</createdTime>
+<ownerDesignName>Conceito</ownerDesignName>
+<engineerTo>
+<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E8FD8726-B779-123C-F46E-A9E44FCED5CD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="46705BB3-67A1-C087-CD44-1D091B73A8FF" mainViewID="BC26CCA6-BB6C-9B87-43D5-C7132E1B5DE9">
+<createdBy>mathe</createdBy>
+<createdTime>2025-04-25 23:26:20 UTC</createdTime>
+<ownerDesignName>Conceito</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

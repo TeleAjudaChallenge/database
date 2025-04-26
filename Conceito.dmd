@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Conceito" id="26A4BFC0-2336-E93D-D565-49C415889A53" version="3.5">
+<createdBy>mathe</createdBy>
+<createdTime>2025-04-25 23:26:20 UTC</createdTime>
+<ownerDesignName>Conceito</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>26A4BFC0-2336-E93D-D565-49C415889A53</designId>
+</OSDM_Design>

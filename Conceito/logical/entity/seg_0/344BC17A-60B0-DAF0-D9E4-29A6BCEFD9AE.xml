@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="344BC17A-60B0-DAF0-D9E4-29A6BCEFD9AE" name="Filial">
+<createdBy>mathe</createdBy>
+<createdTime>2025-04-25 23:29:26 UTC</createdTime>
+<ownerDesignName>Conceito</ownerDesignName>
+<engineerTo>
+<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="B7AC833A-815D-EAE7-10CF-6C1163316BDF">
+<createdBy>mathe</createdBy>
+<createdTime>2025-04-25 23:29:39 UTC</createdTime>
+<ownerDesignName>Conceito</ownerDesignName>
+<engineerTo>
+<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome_Filial" id="5FD94A24-A072-6010-7B0C-5245C62A71FB">
+<createdBy>mathe</createdBy>
+<createdTime>2025-04-25 23:29:43 UTC</createdTime>
+<ownerDesignName>Conceito</ownerDesignName>
+<engineerTo>
+<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefone" id="E2883EE8-ED99-C79D-3313-22B66A0EB643">
+<createdBy>mathe</createdBy>
+<createdTime>2025-04-25 23:29:49 UTC</createdTime>
+<ownerDesignName>Conceito</ownerDesignName>
+<engineerTo>
+<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="24D59538-53B7-D951-D199-D9CC2F66B25E">
+<createdBy>mathe</createdBy>
+<createdTime>2025-04-25 23:29:59 UTC</createdTime>
+<ownerDesignName>Conceito</ownerDesignName>
+<engineerTo>
+<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="FFB5EBAE-0108-F759-7D8C-CBC434526341">
+<createdBy>mathe</createdBy>
+<createdTime>2025-04-25 23:50:46 UTC</createdTime>
+<generatorID>89B5D197-E64A-EF71-FE8F-B3A944DFA23F</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<engineerTo>
+<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
+</engineerTo>
+<referedAttribute>C5334887-65D2-95A6-CD2D-C30D86FF8542</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="1ECB787B-22EC-6D39-3DBE-2940A2C403CF">
+<createdBy>mathe</createdBy>
+<createdTime>2025-04-25 23:51:08 UTC</createdTime>
+<generatorID>23F2F137-5A2A-ACB2-CCFE-B7785689877B</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<engineerTo>
+<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
+</engineerTo>
+<referedAttribute>BB42EE1B-D5C0-C6F1-B1E3-23A09CDCBE3C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E28F635C-F7B4-9217-D6C1-4018E07D4EE8" name="Contato_Suporte PK">
+<createdBy>mathe</createdBy>
+<createdTime>2025-04-25 23:29:42 UTC</createdTime>
+<ownerDesignName>Conceito</ownerDesignName>
+<engineerTo>
+<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B7AC833A-815D-EAE7-10CF-6C1163316BDF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

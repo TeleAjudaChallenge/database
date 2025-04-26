@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="08C83F52-DE22-1CAD-FD47-0265C7EADD10" name="CHAT">
+<createdBy>mathe</createdBy>
+<createdTime>2025-04-25 23:44:56 UTC</createdTime>
+<ownerDesignName>Conceito</ownerDesignName>
+<engineerTo>
+<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="3FF95174-4590-F199-ADCD-C141FEA69737">
+<createdBy>mathe</createdBy>
+<createdTime>2025-04-25 23:45:03 UTC</createdTime>
+<ownerDesignName>Conceito</ownerDesignName>
+<engineerTo>
+<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Conversa" id="B25FE851-3307-7D34-10C3-C17C2B5D1707">
+<createdBy>mathe</createdBy>
+<createdTime>2025-04-25 23:45:07 UTC</createdTime>
+<ownerDesignName>Conceito</ownerDesignName>
+<engineerTo>
+<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data" id="BF5C93AC-2331-27D8-A682-2DE4838F9110">
+<createdBy>mathe</createdBy>
+<createdTime>2025-04-25 23:45:27 UTC</createdTime>
+<ownerDesignName>Conceito</ownerDesignName>
+<engineerTo>
+<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="D7689438-0C44-48C3-ABB6-15E9C4056442">
+<createdBy>mathe</createdBy>
+<createdTime>2025-04-25 23:47:58 UTC</createdTime>
+<generatorID>EC66931D-0742-AD5B-7031-A3E4E0F94A1F</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<engineerTo>
+<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C5334887-65D2-95A6-CD2D-C30D86FF8542</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="268F7BFE-D841-1C63-D62A-F3C6495DC929" name="CHAT PK">
+<createdBy>mathe</createdBy>
+<createdTime>2025-04-25 23:45:37 UTC</createdTime>
+<ownerDesignName>Conceito</ownerDesignName>
+<engineerTo>
+<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3FF95174-4590-F199-ADCD-C141FEA69737</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
