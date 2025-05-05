@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="3FF95174-4590-F199-ADCD-C141FEA69737">
+<Attribute name="ID_Chat" id="3FF95174-4590-F199-ADCD-C141FEA69737">
 <createdBy>mathe</createdBy>
 <createdTime>2025-04-25 23:45:03 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
@@ -55,7 +55,6 @@
 <engineerTo>
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <referedAttribute>C5334887-65D2-95A6-CD2D-C30D86FF8542</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>

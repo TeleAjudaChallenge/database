@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="BB42EE1B-D5C0-C6F1-B1E3-23A09CDCBE3C">
+<Attribute name="ID_End" id="BB42EE1B-D5C0-C6F1-B1E3-23A09CDCBE3C">
 <createdBy>mathe</createdBy>
 <createdTime>2025-04-25 23:30:38 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
@@ -91,10 +91,10 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="331CAC8C-8500-686F-9F20-C1E41DF13F2B">
-<createdBy>mathe</createdBy>
-<createdTime>2025-04-25 23:51:08 UTC</createdTime>
-<generatorID>23F2F137-5A2A-ACB2-CCFE-B7785689877B</generatorID>
+<Attribute name="ID_Filial" id="51D38376-5EEE-4D71-EC7F-D2EEA329F692">
+<createdBy>Julia</createdBy>
+<createdTime>2025-05-05 16:54:47 UTC</createdTime>
+<generatorID>721B20FC-8D71-AD18-713D-9000F776057A</generatorID>
 <ownerDesignName>Conceito</ownerDesignName>
 <engineerTo>
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>

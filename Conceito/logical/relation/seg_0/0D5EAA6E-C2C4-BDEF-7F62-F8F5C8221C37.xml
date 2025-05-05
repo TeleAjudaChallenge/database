@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="85B4F21B-58E5-0EB0-C708-EC1673F78CAE">
-<createdBy>mathe</createdBy>
-<createdTime>2025-04-25 23:47:10 UTC</createdTime>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_10" directorySegmentName="seg_0" id="0D5EAA6E-C2C4-BDEF-7F62-F8F5C8221C37">
+<createdBy>Julia</createdBy>
+<createdTime>2025-05-05 16:56:05 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
 <engineerTo>
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>

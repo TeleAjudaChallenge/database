@@ -80,9 +80,6 @@
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<usedAttributes>
-<attributeRef>C5334887-65D2-95A6-CD2D-C30D86FF8542</attributeRef>
-</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>
