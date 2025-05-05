@@ -58,7 +58,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="FFB5EBAE-0108-F759-7D8C-CBC434526341">
+<Attribute name="ID_Usuario" id="FFB5EBAE-0108-F759-7D8C-CBC434526341">
 <createdBy>mathe</createdBy>
 <createdTime>2025-04-25 23:50:46 UTC</createdTime>
 <generatorID>89B5D197-E64A-EF71-FE8F-B3A944DFA23F</generatorID>
