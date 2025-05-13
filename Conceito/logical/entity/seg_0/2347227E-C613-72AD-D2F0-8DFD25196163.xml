@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="08C83F52-DE22-1CAD-FD47-0265C7EADD10" name="CHAT">
-<createdBy>mathe</createdBy>
-<createdTime>2025-04-25 23:44:56 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2347227E-C613-72AD-D2F0-8DFD25196163" name="T_TAJ_FUNCIONARIO">
+<createdBy>Julia</createdBy>
+<createdTime>2025-05-13 14:17:49 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
 <engineerTo>
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
@@ -15,62 +15,56 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_Chat" id="3FF95174-4590-F199-ADCD-C141FEA69737">
-<createdBy>mathe</createdBy>
-<createdTime>2025-04-25 23:45:03 UTC</createdTime>
+<Attribute name="id_funcionario" id="A2FDBE60-A1E4-BDE3-FD46-804522FF2B93">
+<createdBy>Julia</createdBy>
+<createdTime>2025-05-13 14:18:23 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
 <engineerTo>
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Conversa" id="B25FE851-3307-7D34-10C3-C17C2B5D1707">
-<createdBy>mathe</createdBy>
-<createdTime>2025-04-25 23:45:07 UTC</createdTime>
+<Attribute name="nome" id="56619B35-7FB3-68F0-F7D7-20DA5EB9292D">
+<createdBy>Julia</createdBy>
+<createdTime>2025-05-13 14:18:37 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
 <engineerTo>
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Data" id="BF5C93AC-2331-27D8-A682-2DE4838F9110">
-<createdBy>mathe</createdBy>
-<createdTime>2025-04-25 23:45:27 UTC</createdTime>
+<Attribute name="email" id="813F9FE1-6184-D535-A16E-451CCBDE49E9">
+<createdBy>Julia</createdBy>
+<createdTime>2025-05-13 14:18:52 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
 <engineerTo>
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID_Usuario" id="D7689438-0C44-48C3-ABB6-15E9C4056442">
-<createdBy>mathe</createdBy>
-<createdTime>2025-04-25 23:47:58 UTC</createdTime>
-<generatorID>EC66931D-0742-AD5B-7031-A3E4E0F94A1F</generatorID>
-<ownerDesignName>Conceito</ownerDesignName>
-<engineerTo>
-<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
-</engineerTo>
-<referedAttribute>C5334887-65D2-95A6-CD2D-C30D86FF8542</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="268F7BFE-D841-1C63-D62A-F3C6495DC929" name="CHAT PK">
-<createdBy>mathe</createdBy>
-<createdTime>2025-04-25 23:45:37 UTC</createdTime>
+<identifier id="1E4F8B51-25E9-8462-BE3B-A2683A667D21" name="T_TAJ_FUNCIONARIO PK">
+<createdBy>Julia</createdBy>
+<createdTime>2025-05-13 14:18:37 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
 <engineerTo>
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>3FF95174-4590-F199-ADCD-C141FEA69737</attributeRef>
+<attributeRef>A2FDBE60-A1E4-BDE3-FD46-804522FF2B93</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

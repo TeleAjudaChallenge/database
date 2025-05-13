@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B273499-6212-FB23-7247-9F7C158AF076" name="Endereco">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B273499-6212-FB23-7247-9F7C158AF076" name="T_TAJ_ENDERECO">
 <createdBy>mathe</createdBy>
 <createdTime>2025-04-25 23:30:32 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
@@ -15,17 +15,19 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_End" id="BB42EE1B-D5C0-C6F1-B1E3-23A09CDCBE3C">
+<Attribute name="id_endereco" id="BB42EE1B-D5C0-C6F1-B1E3-23A09CDCBE3C">
 <createdBy>mathe</createdBy>
 <createdTime>2025-04-25 23:30:38 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
 <engineerTo>
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Lougradouro" id="E81C6612-5C6C-C2A9-F5FB-E7D39076D716">
+<Attribute name="lougradouro" id="E81C6612-5C6C-C2A9-F5FB-E7D39076D716">
 <createdBy>mathe</createdBy>
 <createdTime>2025-04-25 23:30:42 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
@@ -33,10 +35,12 @@
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Numero" id="600A7AFC-0242-48B5-D67A-EE7D836E11C4">
+<Attribute name="numero" id="600A7AFC-0242-48B5-D67A-EE7D836E11C4">
 <createdBy>mathe</createdBy>
 <createdTime>2025-04-25 23:31:01 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
@@ -44,10 +48,25 @@
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Bairro" id="271971C3-71C0-F61C-272D-66F5314A3D2B">
+<Attribute name="complemento" id="F1535ADB-DC81-C58C-FE3E-973620A83618">
+<createdBy>Julia</createdBy>
+<createdTime>2025-05-13 14:07:27 UTC</createdTime>
+<ownerDesignName>Conceito</ownerDesignName>
+<engineerTo>
+<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bairro" id="271971C3-71C0-F61C-272D-66F5314A3D2B">
 <createdBy>mathe</createdBy>
 <createdTime>2025-04-25 23:31:14 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
@@ -55,10 +74,12 @@
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Cidade" id="99ECD050-9DA6-78F6-4992-BE2B5C506FC7">
+<Attribute name="cidade" id="99ECD050-9DA6-78F6-4992-BE2B5C506FC7">
 <createdBy>mathe</createdBy>
 <createdTime>2025-04-25 23:31:09 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
@@ -66,10 +87,12 @@
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Estado" id="AA80C0B8-D51E-626E-5F18-8BF692F33844">
+<Attribute name="estado" id="AA80C0B8-D51E-626E-5F18-8BF692F33844">
 <createdBy>mathe</createdBy>
 <createdTime>2025-04-25 23:31:12 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
@@ -77,10 +100,12 @@
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Ponto_Ref" id="9D7E9527-4B13-14ED-1E2F-6867519768F6">
+<Attribute name="ponto_ref" id="9D7E9527-4B13-14ED-1E2F-6867519768F6">
 <createdBy>mathe</createdBy>
 <createdTime>2025-04-25 23:31:22 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
@@ -88,19 +113,23 @@
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_Filial" id="51D38376-5EEE-4D71-EC7F-D2EEA329F692">
+<Attribute name="id_filial" id="7EC0F2AB-F397-C801-4071-CEF91675A580">
 <createdBy>Julia</createdBy>
-<createdTime>2025-05-05 16:54:47 UTC</createdTime>
+<createdTime>2025-05-13 14:03:30 UTC</createdTime>
 <generatorID>721B20FC-8D71-AD18-713D-9000F776057A</generatorID>
 <ownerDesignName>Conceito</ownerDesignName>
 <engineerTo>
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
 </engineerTo>
 <referedAttribute>B7AC833A-815D-EAE7-10CF-6C1163316BDF</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E51E577B-1754-B5DF-53DD-399C632A3ECB" name="T_TAJ_PESQUISA_SATIS">
-<createdBy>mathe</createdBy>
-<createdTime>2025-04-25 23:28:11 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C4A8A66E-60C4-3726-99AE-D0719571699F" name="T_TAJ_TICKET">
+<createdBy>Julia</createdBy>
+<createdTime>2025-05-13 14:00:34 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
 <engineerTo>
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_pesquisa_satis" id="E8FD8726-B779-123C-F46E-A9E44FCED5CD">
-<createdBy>mathe</createdBy>
-<createdTime>2025-04-25 23:28:25 UTC</createdTime>
+<Attribute name="id_ticket" id="B6174BE0-348A-D105-0A8B-C85B3409526A">
+<createdBy>Julia</createdBy>
+<createdTime>2025-05-13 14:14:56 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
 <engineerTo>
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
@@ -27,22 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nota_app" id="0545D126-7732-1833-7E44-92AB54249751">
-<createdBy>mathe</createdBy>
-<createdTime>2025-04-25 23:28:29 UTC</createdTime>
-<ownerDesignName>Conceito</ownerDesignName>
-<engineerTo>
-<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="nota_site" id="8D6637B4-57A8-D915-FCD5-9B0CED8BDD80">
-<createdBy>mathe</createdBy>
-<createdTime>2025-04-25 23:28:46 UTC</createdTime>
+<Attribute name="assunto" id="FC75BEFC-7A02-310B-088B-EDD2F659ECD0">
+<createdBy>Julia</createdBy>
+<createdTime>2025-05-13 14:15:08 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
 <engineerTo>
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
@@ -50,12 +37,12 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nota_suporte" id="105BA014-BBBF-8611-DB4A-00F658B4FD50">
-<createdBy>mathe</createdBy>
-<createdTime>2025-04-25 23:28:53 UTC</createdTime>
+<Attribute name="descricao" id="D084D3FD-2397-C9E1-18D5-32CDCD223F38">
+<createdBy>Julia</createdBy>
+<createdTime>2025-05-13 14:15:40 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
 <engineerTo>
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
@@ -63,12 +50,12 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="data" id="2F68BFF5-B168-BAC7-2C95-575937BB4E87">
-<createdBy>mathe</createdBy>
-<createdTime>2025-04-25 23:29:04 UTC</createdTime>
+<Attribute name="data_abertura" id="0CB61CF8-3FB1-D6DF-DE2D-D249ADE440CD">
+<createdBy>Julia</createdBy>
+<createdTime>2025-05-13 14:15:54 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
 <engineerTo>
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
@@ -79,32 +66,73 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cpf" id="A324C264-4398-F11E-5DF8-BC995E953891">
+<Attribute name="data_fechamento" id="44D33777-5309-4049-8694-886F21090439">
 <createdBy>Julia</createdBy>
-<createdTime>2025-05-13 14:02:10 UTC</createdTime>
-<generatorID>0D5EAA6E-C2C4-BDEF-7F62-F8F5C8221C37</generatorID>
+<createdTime>2025-05-13 14:16:41 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
 <engineerTo>
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="3F62069C-4E67-DDD0-CD44-DFAB9E2ED72B">
+<createdBy>Julia</createdBy>
+<createdTime>2025-05-13 14:16:56 UTC</createdTime>
+<ownerDesignName>Conceito</ownerDesignName>
+<engineerTo>
+<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="4B46EB7A-908E-2C95-DBE7-53A74E4F8BF0">
+<createdBy>Julia</createdBy>
+<createdTime>2025-05-13 14:22:05 UTC</createdTime>
+<generatorID>4FD407BE-F8B4-595A-6828-C4B1C52CB4D2</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<engineerTo>
+<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
+</engineerTo>
 <referedAttribute>363391C2-792A-6545-BA78-083466B7F74A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_funcionario" id="D727AF1B-ED32-0C30-6C17-74A2CE8CE030">
+<createdBy>Julia</createdBy>
+<createdTime>2025-05-13 14:22:46 UTC</createdTime>
+<generatorID>59B6F855-D777-F17D-C5DA-9B8995785352</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<engineerTo>
+<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
+</engineerTo>
+<referedAttribute>A2FDBE60-A1E4-BDE3-FD46-804522FF2B93</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="D4D6334C-CB04-1AAE-0E80-3C1CF0DA3DBC" name="Pesquisa_Satisfacao PK">
-<createdBy>mathe</createdBy>
-<createdTime>2025-04-25 23:28:28 UTC</createdTime>
+<identifier id="50544A72-4952-8E57-59A4-56CC8A9958FB" name="T_TAJ_TICKET PK">
+<createdBy>Julia</createdBy>
+<createdTime>2025-05-13 14:15:07 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
 <engineerTo>
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>E8FD8726-B779-123C-F46E-A9E44FCED5CD</attributeRef>
+<attributeRef>B6174BE0-348A-D105-0A8B-C85B3409526A</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

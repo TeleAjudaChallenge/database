@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CA3FAEF5-08ED-8593-8FE7-5114E6F1A163" name="T_TAJ_PACIENTE">
-<createdBy>mathe</createdBy>
-<createdTime>2025-04-25 23:42:32 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="15114D3B-81C9-9FFC-C303-01740B3074F2" name="T_TAJ_CONSULTA">
+<createdBy>Julia</createdBy>
+<createdTime>2025-05-13 14:18:13 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
 <engineerTo>
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
@@ -15,82 +15,71 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cpf" id="363391C2-792A-6545-BA78-083466B7F74A">
-<createdBy>mathe</createdBy>
-<createdTime>2025-04-25 23:42:49 UTC</createdTime>
+<Attribute name="id_consulta" id="A16F9077-AABE-DB34-82A0-357C06AEA915">
+<createdBy>Julia</createdBy>
+<createdTime>2025-05-13 14:47:55 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
 <engineerTo>
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
 </engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="F710C4D1-D57E-F650-690B-28C22D8A202A">
+<createdBy>Julia</createdBy>
+<createdTime>2025-05-13 14:48:07 UTC</createdTime>
+<ownerDesignName>Conceito</ownerDesignName>
+<engineerTo>
+<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="crm" id="045C6317-46A9-895F-83CD-897BC2736512">
+<createdBy>Julia</createdBy>
+<createdTime>2025-05-13 14:48:50 UTC</createdTime>
+<generatorID>90DDC150-D576-8F05-15FE-315B76395F68</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<engineerTo>
+<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
+</engineerTo>
+<referedAttribute>DCAD9F5C-166A-6309-843E-98D91BAB2A3B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="C97EE790-10C9-138E-1600-3233D2504DD3">
+<createdBy>Julia</createdBy>
+<createdTime>2025-05-13 14:49:01 UTC</createdTime>
+<generatorID>1BFB8166-318B-7E44-3BF8-5B864837E5AF</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<engineerTo>
+<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
+</engineerTo>
+<referedAttribute>363391C2-792A-6545-BA78-083466B7F74A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nome" id="EFAE2964-4A7C-676B-B347-D7EF5FBC65AB">
-<createdBy>mathe</createdBy>
-<createdTime>2025-04-25 23:43:05 UTC</createdTime>
-<ownerDesignName>Conceito</ownerDesignName>
-<engineerTo>
-<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="telefone" id="A1D37C0E-6B70-917A-CA6C-9FE2B158035C">
-<createdBy>mathe</createdBy>
-<createdTime>2025-04-25 23:43:11 UTC</createdTime>
-<ownerDesignName>Conceito</ownerDesignName>
-<engineerTo>
-<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="email" id="0D22BEE5-CAF9-E06D-52C9-381EAAD86C8C">
-<createdBy>mathe</createdBy>
-<createdTime>2025-04-25 23:43:14 UTC</createdTime>
-<ownerDesignName>Conceito</ownerDesignName>
-<engineerTo>
-<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="rghc" id="7CECBA96-EC78-4B52-46E4-2CE47B82E35A">
-<createdBy>mathe</createdBy>
-<createdTime>2025-04-25 23:44:39 UTC</createdTime>
-<ownerDesignName>Conceito</ownerDesignName>
-<engineerTo>
-<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="2C9E5362-EF7A-B513-E376-4E61B194D322" name="Usuario PK">
-<createdBy>mathe</createdBy>
-<createdTime>2025-04-25 23:42:48 UTC</createdTime>
+<identifier id="DB662FEF-DE49-F1DC-1281-1488D60AF650" name="T_TAJ_CONSULTA PK">
+<createdBy>Julia</createdBy>
+<createdTime>2025-05-13 14:48:06 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
 <engineerTo>
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>363391C2-792A-6545-BA78-083466B7F74A</attributeRef>
+<attributeRef>A16F9077-AABE-DB34-82A0-357C06AEA915</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

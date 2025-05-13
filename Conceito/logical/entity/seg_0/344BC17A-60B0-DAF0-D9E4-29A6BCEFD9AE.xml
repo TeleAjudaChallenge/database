@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="344BC17A-60B0-DAF0-D9E4-29A6BCEFD9AE" name="Filial">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="344BC17A-60B0-DAF0-D9E4-29A6BCEFD9AE" name="T_TAJ_FILIAL">
 <createdBy>mathe</createdBy>
 <createdTime>2025-04-25 23:29:26 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
@@ -15,17 +15,19 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_Filial" id="B7AC833A-815D-EAE7-10CF-6C1163316BDF">
+<Attribute name="id_filial" id="B7AC833A-815D-EAE7-10CF-6C1163316BDF">
 <createdBy>mathe</createdBy>
 <createdTime>2025-04-25 23:29:39 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
 <engineerTo>
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Nome_Filial" id="5FD94A24-A072-6010-7B0C-5245C62A71FB">
+<Attribute name="nome_filial" id="5FD94A24-A072-6010-7B0C-5245C62A71FB">
 <createdBy>mathe</createdBy>
 <createdTime>2025-04-25 23:29:43 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
@@ -33,10 +35,12 @@
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Telefone" id="E2883EE8-ED99-C79D-3313-22B66A0EB643">
+<Attribute name="telefone" id="E2883EE8-ED99-C79D-3313-22B66A0EB643">
 <createdBy>mathe</createdBy>
 <createdTime>2025-04-25 23:29:49 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
@@ -44,10 +48,12 @@
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Email" id="24D59538-53B7-D951-D199-D9CC2F66B25E">
+<Attribute name="email" id="24D59538-53B7-D951-D199-D9CC2F66B25E">
 <createdBy>mathe</createdBy>
 <createdTime>2025-04-25 23:29:59 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
@@ -55,31 +61,36 @@
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_Usuario" id="FFB5EBAE-0108-F759-7D8C-CBC434526341">
-<createdBy>mathe</createdBy>
-<createdTime>2025-04-25 23:50:46 UTC</createdTime>
-<generatorID>89B5D197-E64A-EF71-FE8F-B3A944DFA23F</generatorID>
+<Attribute name="cpf" id="C36B8601-BB02-822A-0A28-3F0F08692A45">
+<createdBy>Julia</createdBy>
+<createdTime>2025-05-13 14:02:10 UTC</createdTime>
+<generatorID>A8105410-0EEA-AA8B-3A2D-D3A128DDE31C</generatorID>
 <ownerDesignName>Conceito</ownerDesignName>
 <engineerTo>
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
 </engineerTo>
-<referedAttribute>C5334887-65D2-95A6-CD2D-C30D86FF8542</referedAttribute>
-<use>0</use>
+<referedAttribute>363391C2-792A-6545-BA78-083466B7F74A</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_End" id="01135A42-7063-437B-564E-142C4A480B02">
+<Attribute name="id_endereco" id="954C06ED-D7FA-6003-DA21-99305F297796">
 <createdBy>Julia</createdBy>
-<createdTime>2025-05-05 16:54:47 UTC</createdTime>
+<createdTime>2025-05-13 14:02:35 UTC</createdTime>
 <generatorID>721B20FC-8D71-AD18-713D-9000F776057A</generatorID>
 <ownerDesignName>Conceito</ownerDesignName>
 <engineerTo>
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
 </engineerTo>
 <referedAttribute>BB42EE1B-D5C0-C6F1-B1E3-23A09CDCBE3C</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
