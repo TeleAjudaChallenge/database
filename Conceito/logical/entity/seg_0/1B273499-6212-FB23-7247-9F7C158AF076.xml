@@ -38,7 +38,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="numero" id="600A7AFC-0242-48B5-D67A-EE7D836E11C4">
 <createdBy>mathe</createdBy>
@@ -64,7 +65,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="bairro" id="271971C3-71C0-F61C-272D-66F5314A3D2B">
 <createdBy>mathe</createdBy>
@@ -77,7 +79,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="cidade" id="99ECD050-9DA6-78F6-4992-BE2B5C506FC7">
 <createdBy>mathe</createdBy>
@@ -90,7 +93,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="estado" id="AA80C0B8-D51E-626E-5F18-8BF692F33844">
 <createdBy>mathe</createdBy>
@@ -103,7 +107,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ponto_ref" id="9D7E9527-4B13-14ED-1E2F-6867519768F6">
 <createdBy>mathe</createdBy>

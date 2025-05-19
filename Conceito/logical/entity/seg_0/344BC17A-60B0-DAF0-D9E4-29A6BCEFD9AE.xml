@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nome_filial" id="5FD94A24-A072-6010-7B0C-5245C62A71FB">
+<Attribute name="nm_filial" id="5FD94A24-A072-6010-7B0C-5245C62A71FB">
 <createdBy>mathe</createdBy>
 <createdTime>2025-04-25 23:29:43 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
@@ -38,9 +38,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="telefone" id="E2883EE8-ED99-C79D-3313-22B66A0EB643">
+<Attribute name="tel_filial" id="E2883EE8-ED99-C79D-3313-22B66A0EB643">
 <createdBy>mathe</createdBy>
 <createdTime>2025-04-25 23:29:49 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
@@ -51,9 +52,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="email" id="24D59538-53B7-D951-D199-D9CC2F66B25E">
+<Attribute name="mail_filial" id="24D59538-53B7-D951-D199-D9CC2F66B25E">
 <createdBy>mathe</createdBy>
 <createdTime>2025-04-25 23:29:59 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
@@ -64,20 +66,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="cpf" id="C36B8601-BB02-822A-0A28-3F0F08692A45">
-<createdBy>Julia</createdBy>
-<createdTime>2025-05-13 14:02:10 UTC</createdTime>
-<generatorID>A8105410-0EEA-AA8B-3A2D-D3A128DDE31C</generatorID>
-<ownerDesignName>Conceito</ownerDesignName>
-<engineerTo>
-<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
-</engineerTo>
-<referedAttribute>363391C2-792A-6545-BA78-083466B7F74A</referedAttribute>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_endereco" id="954C06ED-D7FA-6003-DA21-99305F297796">
 <createdBy>Julia</createdBy>

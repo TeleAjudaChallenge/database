@@ -38,7 +38,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="descricao" id="D084D3FD-2397-C9E1-18D5-32CDCD223F38">
 <createdBy>Julia</createdBy>
@@ -51,9 +52,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="data_abertura" id="0CB61CF8-3FB1-D6DF-DE2D-D249ADE440CD">
+<Attribute name="dt_abertura" id="0CB61CF8-3FB1-D6DF-DE2D-D249ADE440CD">
 <createdBy>Julia</createdBy>
 <createdTime>2025-05-13 14:15:54 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
@@ -66,7 +68,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="data_fechamento" id="44D33777-5309-4049-8694-886F21090439">
+<Attribute name="dt_fechamento" id="44D33777-5309-4049-8694-886F21090439">
 <createdBy>Julia</createdBy>
 <createdTime>2025-05-13 14:16:41 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
@@ -93,7 +95,7 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cpf" id="4B46EB7A-908E-2C95-DBE7-53A74E4F8BF0">
+<Attribute name="cpf_paciente" id="4B46EB7A-908E-2C95-DBE7-53A74E4F8BF0">
 <createdBy>Julia</createdBy>
 <createdTime>2025-05-13 14:22:05 UTC</createdTime>
 <generatorID>4FD407BE-F8B4-595A-6828-C4B1C52CB4D2</generatorID>
@@ -105,6 +107,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_funcionario" id="D727AF1B-ED32-0C30-6C17-74A2CE8CE030">

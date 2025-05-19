@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nota_app" id="0545D126-7732-1833-7E44-92AB54249751">
+<Attribute name="nt_app" id="0545D126-7732-1833-7E44-92AB54249751">
 <createdBy>mathe</createdBy>
 <createdTime>2025-04-25 23:28:29 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
@@ -40,7 +40,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nota_site" id="8D6637B4-57A8-D915-FCD5-9B0CED8BDD80">
+<Attribute name="nt_site" id="8D6637B4-57A8-D915-FCD5-9B0CED8BDD80">
 <createdBy>mathe</createdBy>
 <createdTime>2025-04-25 23:28:46 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
@@ -53,7 +53,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nota_suporte" id="105BA014-BBBF-8611-DB4A-00F658B4FD50">
+<Attribute name="nt_suporte" id="105BA014-BBBF-8611-DB4A-00F658B4FD50">
 <createdBy>mathe</createdBy>
 <createdTime>2025-04-25 23:28:53 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
@@ -66,7 +66,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="data" id="2F68BFF5-B168-BAC7-2C95-575937BB4E87">
+<Attribute name="dt_pesquisa" id="2F68BFF5-B168-BAC7-2C95-575937BB4E87">
 <createdBy>mathe</createdBy>
 <createdTime>2025-04-25 23:29:04 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
@@ -79,7 +79,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cpf" id="A324C264-4398-F11E-5DF8-BC995E953891">
+<Attribute name="cpf_paciente" id="A324C264-4398-F11E-5DF8-BC995E953891">
 <createdBy>Julia</createdBy>
 <createdTime>2025-05-13 14:02:10 UTC</createdTime>
 <generatorID>0D5EAA6E-C2C4-BDEF-7F62-F8F5C8221C37</generatorID>
@@ -87,10 +87,11 @@
 <engineerTo>
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <referedAttribute>363391C2-792A-6545-BA78-083466B7F74A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="data" id="F710C4D1-D57E-F650-690B-28C22D8A202A">
+<Attribute name="dt_consulta" id="F710C4D1-D57E-F650-690B-28C22D8A202A">
 <createdBy>Julia</createdBy>
 <createdTime>2025-05-13 14:48:07 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
@@ -40,7 +40,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="crm" id="045C6317-46A9-895F-83CD-897BC2736512">
+<Attribute name="crm_medico" id="045C6317-46A9-895F-83CD-897BC2736512">
 <createdBy>Julia</createdBy>
 <createdTime>2025-05-13 14:48:50 UTC</createdTime>
 <generatorID>90DDC150-D576-8F05-15FE-315B76395F68</generatorID>
@@ -52,9 +52,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cpf" id="C97EE790-10C9-138E-1600-3233D2504DD3">
+<Attribute name="cpf_paciente" id="C97EE790-10C9-138E-1600-3233D2504DD3">
 <createdBy>Julia</createdBy>
 <createdTime>2025-05-13 14:49:01 UTC</createdTime>
 <generatorID>1BFB8166-318B-7E44-3BF8-5B864837E5AF</generatorID>
@@ -66,7 +67,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
