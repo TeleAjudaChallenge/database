@@ -34,7 +34,6 @@
 <engineerTo>
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -54,6 +53,20 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>60</dataTypeSize>
 <ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_login" id="902181F4-D8A8-B671-7623-09A94FB27BB6">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-09-25 01:05:22 UTC</createdTime>
+<generatorID>8FE9CDF9-0E3A-3874-95CB-35E6BB0C0C65</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<engineerTo>
+<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
+</engineerTo>
+<referedAttribute>2C2EEAD9-870F-30A7-1CD0-233DD2D86AB1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

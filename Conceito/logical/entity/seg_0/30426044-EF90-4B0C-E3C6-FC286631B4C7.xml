@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6A083719-107F-071D-AC14-B863C4852F48" name="T_TAJ_MEDICO">
-<createdBy>Julia</createdBy>
-<createdTime>2025-05-13 14:18:02 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="30426044-EF90-4B0C-E3C6-FC286631B4C7" name="T_TAJ_LOGIN">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-09-25 01:00:00 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
 <engineerTo>
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
@@ -15,59 +15,54 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="crm_medico" id="DCAD9F5C-166A-6309-843E-98D91BAB2A3B">
-<createdBy>Julia</createdBy>
-<createdTime>2025-05-13 14:19:22 UTC</createdTime>
+<Attribute name="id_login" id="2C2EEAD9-870F-30A7-1CD0-233DD2D86AB1">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-09-25 01:00:16 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
 <engineerTo>
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nm_medico" id="8CD2FDCA-8F5E-8F1C-BBAA-153F37C345AE">
-<createdBy>Julia</createdBy>
-<createdTime>2025-05-13 14:21:00 UTC</createdTime>
+<Attribute name="user_login" id="AB29B22E-0322-65ED-9FA5-FA8E3D0A7994">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-09-25 01:01:06 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
 <engineerTo>
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>60</dataTypeSize>
-<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="mail_medico" id="9A8C267A-9768-0934-103D-A3DA9236F148">
-<createdBy>Julia</createdBy>
-<createdTime>2025-05-13 14:21:24 UTC</createdTime>
+<Attribute name="senha_login" id="8BE6F007-F8B4-F4D1-8143-DE89621F6E66">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-09-25 01:01:21 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
 <engineerTo>
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>60</dataTypeSize>
-<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="FE78B0C7-4287-A52F-12C2-4AE710DEA65B" name="T_TAJ_MEDICO PK">
-<createdBy>Julia</createdBy>
-<createdTime>2025-05-13 14:21:42 UTC</createdTime>
+<identifier id="E0F7A3C0-0FF3-42B4-794B-D9E2197A84E0" name="T_TAJ_LOGIN PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-09-25 01:00:27 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
 <engineerTo>
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>DCAD9F5C-166A-6309-843E-98D91BAB2A3B</attributeRef>
+<attributeRef>2C2EEAD9-870F-30A7-1CD0-233DD2D86AB1</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
