@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="96A7E850-7FD7-E536-064A-1B1D7293FA3D" name="T_TAJ_PESQUISA_SATIS">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:10 UTC</createdTime>
+<generatorID>E51E577B-1754-B5DF-53DD-399C632A3ECB</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pesquisa_satis" id="F18E2C63-C422-D48E-011E-F8E05EAAE3F5">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:10 UTC</createdTime>
+<generatorID>E8FD8726-B779-123C-F46E-A9E44FCED5CD</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nt_app" id="744B0598-94B8-811D-D4C1-AA93725F1302">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:10 UTC</createdTime>
+<generatorID>0545D126-7732-1833-7E44-92AB54249751</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nt_site" id="D5321C67-B53C-5300-3399-9AE6AEDA8A1B">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:10 UTC</createdTime>
+<generatorID>8D6637B4-57A8-D915-FCD5-9B0CED8BDD80</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nt_suporte" id="51A70739-6CCF-341F-0C19-6EFA8579B702">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:10 UTC</createdTime>
+<generatorID>105BA014-BBBF-8611-DB4A-00F658B4FD50</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_pesquisa" id="30C7845F-4859-0C43-575E-E0FB313E0F7E">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:10 UTC</createdTime>
+<generatorID>2F68BFF5-B168-BAC7-2C95-575937BB4E87</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_TAJ_PACIENTE_cpf_paciente" id="0905D0C0-C37E-3D71-836A-B01EF0613470">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:10 UTC</createdTime>
+<generatorID>A324C264-4398-F11E-5DF8-BC995E953891</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="317725B1-C6A3-5B08-B925-14EE7FFB387F" referredColumn="AD6BE0ED-2DC4-84C4-C6E2-D2D354F03CB6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A090872-394B-EB71-57B9-AFAB0A99AC17" name="T_TAJ_PESQUISA_SATIS_PK">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:10 UTC</createdTime>
+<generatorID>D4D6334C-CB04-1AAE-0E80-3C1CF0DA3DBC</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F18E2C63-C422-D48E-011E-F8E05EAAE3F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CCEBA22F-8870-2EFD-F918-EB8500B98E7F" name="T_TAJ_PESQUISA_SATIS_T_TAJ_PACIENTE_FK">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:10 UTC</createdTime>
+<generatorID>0D5EAA6E-C2C4-BDEF-7F62-F8F5C8221C37</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0905D0C0-C37E-3D71-836A-B01EF0613470"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

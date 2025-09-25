@@ -1,14 +1,3 @@
--- Gerado por Oracle SQL Developer Data Modeler 24.3.1.351.0831
---   em:        2025-09-25 14:59:48 BRT
---   site:      Oracle Database 11g
---   tipo:      Oracle Database 11g
-
-
-
--- predefined type, no DDL - MDSYS.SDO_GEOMETRY
-
--- predefined type, no DDL - XMLTYPE
-
 CREATE TABLE T_TAJ_FUNCIONARIO 
     ( 
      id_funcionario       INTEGER  NOT NULL , 
@@ -26,14 +15,13 @@ CREATE UNIQUE INDEX T_TAJ_FUNCIONARIO__IDX ON T_TAJ_FUNCIONARIO
 ALTER TABLE T_TAJ_FUNCIONARIO 
     ADD CONSTRAINT T_TAJ_FUNCIONARIO_PK PRIMARY KEY ( id_funcionario ) ;
 
-CREATE TABLE T_TAJ_LOGIN 
-    ( 
-     id_login    NUMBER  NOT NULL , 
-     user_login  VARCHAR2 (50)  NOT NULL , 
-     senha_login VARCHAR2 (50)  NOT NULL , 
-     tp_login    CHAR (1)  NOT NULL 
-    ) 
-;
+CREATE TABLE T_TAJ_LOGIN (
+    id_login    NUMBER       NOT NULL,
+    user_login  VARCHAR2(50) NOT NULL,
+    senha_login VARCHAR2(50) NOT NULL,
+    tp_login    CHAR(1)      NOT NULL
+    CONSTRAINT CK_TP_LOGIN CHECK (tp_login IN ('F', 'P'))
+);
 
 ALTER TABLE T_TAJ_LOGIN 
     ADD CONSTRAINT T_TAJ_LOGIN_PK PRIMARY KEY ( id_login ) ;
@@ -81,18 +69,16 @@ CREATE TABLE T_TAJ_TICKET
      dt_abertura                      DATE  NOT NULL , 
      dt_fechamento                    DATE , 
      status                           CHAR (1)  NOT NULL , 
-     T_TAJ_PACIENTE_cpf_paciente      CHAR (14)  NOT NULL , 
---  ERROR: Column name length exceeds maximum allowed length(30) 
-     T_TAJ_FUNCIONARIO_id_funcionario INTEGER  NOT NULL 
+     cpf_paciente      CHAR (14)  NOT NULL ,  
+     id_funcionario INTEGER  NOT NULL 
     ) 
 ;
 
 ALTER TABLE T_TAJ_TICKET 
     ADD CONSTRAINT T_TAJ_TICKET_PK PRIMARY KEY ( id_ticket ) ;
 
---  ERROR: FK name length exceeds maximum allowed length(30) 
 ALTER TABLE T_TAJ_FUNCIONARIO 
-    ADD CONSTRAINT T_TAJ_FUNCIONARIO_T_TAJ_LOGIN_FK FOREIGN KEY 
+    ADD CONSTRAINT FUNCIONARIO_LOGIN_FK FOREIGN KEY 
     ( 
      T_TAJ_LOGIN_id_login
     ) 
@@ -112,10 +98,9 @@ ALTER TABLE T_TAJ_PACIENTE
      id_login
     ) 
 ;
-
---  ERROR: FK name length exceeds maximum allowed length(30) 
+ 
 ALTER TABLE T_TAJ_PESQUISA_SATIS 
-    ADD CONSTRAINT T_TAJ_PESQUISA_SATIS_T_TAJ_PACIENTE_FK FOREIGN KEY 
+    ADD CONSTRAINT PESQUISA_SATIS_PACIENTE_FK FOREIGN KEY 
     ( 
      T_TAJ_PACIENTE_cpf_paciente
     ) 
@@ -125,11 +110,10 @@ ALTER TABLE T_TAJ_PESQUISA_SATIS
     ) 
 ;
 
---  ERROR: FK name length exceeds maximum allowed length(30) 
 ALTER TABLE T_TAJ_TICKET 
-    ADD CONSTRAINT T_TAJ_TICKET_T_TAJ_FUNCIONARIO_FK FOREIGN KEY 
+    ADD CONSTRAINT TICKET_FUNCIONARIO_FK FOREIGN KEY 
     ( 
-     T_TAJ_FUNCIONARIO_id_funcionario
+     id_funcionario
     ) 
     REFERENCES T_TAJ_FUNCIONARIO 
     ( 
@@ -140,7 +124,7 @@ ALTER TABLE T_TAJ_TICKET
 ALTER TABLE T_TAJ_TICKET 
     ADD CONSTRAINT T_TAJ_TICKET_T_TAJ_PACIENTE_FK FOREIGN KEY 
     ( 
-     T_TAJ_PACIENTE_cpf_paciente
+     cpf_paciente
     ) 
     REFERENCES T_TAJ_PACIENTE 
     ( 
@@ -149,46 +133,3 @@ ALTER TABLE T_TAJ_TICKET
 ;
 
 
-
--- Relatório do Resumo do Oracle SQL Developer Data Modeler: 
--- 
--- CREATE TABLE                             5
--- CREATE INDEX                             2
--- ALTER TABLE                             10
--- CREATE VIEW                              0
--- ALTER VIEW                               0
--- CREATE PACKAGE                           0
--- CREATE PACKAGE BODY                      0
--- CREATE PROCEDURE                         0
--- CREATE FUNCTION                          0
--- CREATE TRIGGER                           0
--- ALTER TRIGGER                            0
--- CREATE COLLECTION TYPE                   0
--- CREATE STRUCTURED TYPE                   0
--- CREATE STRUCTURED TYPE BODY              0
--- CREATE CLUSTER                           0
--- CREATE CONTEXT                           0
--- CREATE DATABASE                          0
--- CREATE DIMENSION                         0
--- CREATE DIRECTORY                         0
--- CREATE DISK GROUP                        0
--- CREATE ROLE                              0
--- CREATE ROLLBACK SEGMENT                  0
--- CREATE SEQUENCE                          0
--- CREATE MATERIALIZED VIEW                 0
--- CREATE MATERIALIZED VIEW LOG             0
--- CREATE SYNONYM                           0
--- CREATE TABLESPACE                        0
--- CREATE USER                              0
--- 
--- DROP TABLESPACE                          0
--- DROP DATABASE                            0
--- 
--- REDACTION POLICY                         0
--- 
--- ORDS DROP SCHEMA                         0
--- ORDS ENABLE SCHEMA                       0
--- ORDS ENABLE OBJECT                       0
--- 
--- ERRORS                                   4
--- WARNINGS                                 0

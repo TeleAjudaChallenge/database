@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1ABF4AD3-3F13-7491-202A-FA184A739C62" name="T_TAJ_TICKET">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:10 UTC</createdTime>
+<generatorID>C4A8A66E-60C4-3726-99AE-D0719571699F</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ticket" id="7C5027EA-15F7-7AD0-528F-2873AD84F01F">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:10 UTC</createdTime>
+<generatorID>B6174BE0-348A-D105-0A8B-C85B3409526A</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="assunto" id="5F16EC1E-50EA-B5AC-59F9-6118B8A2FAAC">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:10 UTC</createdTime>
+<generatorID>FC75BEFC-7A02-310B-088B-EDD2F659ECD0</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="826A89F7-E5E3-8296-E95B-CBE087D7BB7E">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:10 UTC</createdTime>
+<generatorID>D084D3FD-2397-C9E1-18D5-32CDCD223F38</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="resposta" id="64AA8429-D4A4-36EE-569F-8E8BEEAA66C6">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:10 UTC</createdTime>
+<generatorID>81FF6AC3-5C8B-D4BA-F4F1-A4771A80DFE6</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_abertura" id="507DE425-FE9D-5406-91F8-7A3FBB6E4C37">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:10 UTC</createdTime>
+<generatorID>0CB61CF8-3FB1-D6DF-DE2D-D249ADE440CD</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_fechamento" id="BB8F7823-3F10-7798-402F-EBB0E5EC15B3">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:10 UTC</createdTime>
+<generatorID>44D33777-5309-4049-8694-886F21090439</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="CEDF59CC-EC89-FD3E-43FF-4067DCD3FDEB">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:10 UTC</createdTime>
+<generatorID>3F62069C-4E67-DDD0-CD44-DFAB9E2ED72B</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_TAJ_PACIENTE_cpf_paciente" id="C4A65C0F-792A-98B8-8366-35FF98253EA2">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:10 UTC</createdTime>
+<generatorID>4B46EB7A-908E-2C95-DBE7-53A74E4F8BF0</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FA02F17-788D-BAC9-3893-3F231F9D285B" referredColumn="AD6BE0ED-2DC4-84C4-C6E2-D2D354F03CB6"/>
+</associations>
+</Column>
+<Column name="T_TAJ_FUNCIONARIO_id_funcionario" id="FE6C61C0-8EAD-A76B-E7B7-A38BF631F767">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:10 UTC</createdTime>
+<generatorID>D727AF1B-ED32-0C30-6C17-74A2CE8CE030</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9662AE48-3CA1-04AD-BE11-84FC5CAFE651" referredColumn="B3D6DEC4-4AC8-8B51-00E4-A411781D3399"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB03113D-91EF-28BF-E3DC-5809798B11D4" name="T_TAJ_TICKET_PK">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:10 UTC</createdTime>
+<generatorID>50544A72-4952-8E57-59A4-56CC8A9958FB</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C5027EA-15F7-7AD0-528F-2873AD84F01F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4A5BF09-A539-C460-B99D-4CE3F8DC62C7" name="T_TAJ_TICKET_T_TAJ_PACIENTE_FK">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:11 UTC</createdTime>
+<generatorID>4FD407BE-F8B4-595A-6828-C4B1C52CB4D2</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4A65C0F-792A-98B8-8366-35FF98253EA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D99218C-3AAF-023A-AF00-C673B98B3232" name="T_TAJ_TICKET_T_TAJ_FUNCIONARIO_FK">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:11 UTC</createdTime>
+<generatorID>59B6F855-D777-F17D-C5DA-9B8995785352</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE6C61C0-8EAD-A76B-E7B7-A38BF631F767"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="57DC0449-5126-D010-69E6-879FC6CD3922" containerWithKeyObject="4D12FC79-6488-41BE-D9A2-591B7307842C" localFKIndex="73769B70-B003-BF70-1DCA-6151777C9FE6" name="T_TAJ_FUNCIONARIO_T_TAJ_LOGIN_FK">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:11 UTC</createdTime>
+<generatorID>8FE9CDF9-0E3A-3874-95CB-35E6BB0C0C65</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<referredTableLongName>T_TAJ_LOGIN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5D2CA896-CF34-C55B-D84F-42A28ACB1F64</referredTableID>
+<keyObject>7B95E54F-BD92-D036-0207-87215A5F621B</keyObject>
+<referredKeyID>7B95E54F-BD92-D036-0207-87215A5F621B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_login</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

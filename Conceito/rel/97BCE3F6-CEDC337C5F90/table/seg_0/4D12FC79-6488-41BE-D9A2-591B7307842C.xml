@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4D12FC79-6488-41BE-D9A2-591B7307842C" name="T_TAJ_FUNCIONARIO">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:10 UTC</createdTime>
+<generatorID>2347227E-C613-72AD-D2F0-8DFD25196163</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_funcionario" id="B3D6DEC4-4AC8-8B51-00E4-A411781D3399">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:10 UTC</createdTime>
+<generatorID>A2FDBE60-A1E4-BDE3-FD46-804522FF2B93</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_funcionario" id="40D93462-2829-A445-569D-0751F9A455A2">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:10 UTC</createdTime>
+<generatorID>56619B35-7FB3-68F0-F7D7-20DA5EB9292D</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mail_funcionario" id="3E3A0123-0BC7-D6A4-24D1-66E8135CA057">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:10 UTC</createdTime>
+<generatorID>813F9FE1-6184-D535-A16E-451CCBDE49E9</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_TAJ_LOGIN_id_login" id="5701AB03-EF37-4DC4-BD40-1183FA780E75">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:10 UTC</createdTime>
+<generatorID>902181F4-D8A8-B671-7623-09A94FB27BB6</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57DC0449-5126-D010-69E6-879FC6CD3922" referredColumn="A7D0520E-42D0-13D7-AD6D-C7E6C29ECB7C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4AF75043-3432-8818-E496-903584B81497" name="T_TAJ_FUNCIONARIO_PK">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:10 UTC</createdTime>
+<generatorID>1E4F8B51-25E9-8462-BE3B-A2683A667D21</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3D6DEC4-4AC8-8B51-00E4-A411781D3399"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7298A365-901B-ABB5-018D-8237892373DF" name="T_TAJ_FUNCIONARIO__IDX">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:11 UTC</createdTime>
+<ownerDesignName>Conceito</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>8FE9CDF9-0E3A-3874-95CB-35E6BB0C0C65</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="5701AB03-EF37-4DC4-BD40-1183FA780E75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73769B70-B003-BF70-1DCA-6151777C9FE6" name="T_TAJ_FUNCIONARIO_T_TAJ_LOGIN_FK">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:11 UTC</createdTime>
+<generatorID>8FE9CDF9-0E3A-3874-95CB-35E6BB0C0C65</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5701AB03-EF37-4DC4-BD40-1183FA780E75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

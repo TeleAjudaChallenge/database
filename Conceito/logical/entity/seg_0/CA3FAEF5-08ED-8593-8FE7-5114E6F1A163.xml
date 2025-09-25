@@ -80,6 +80,18 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="dt_nasc_paciente" id="E2FB4819-39E3-A26C-95DD-6688CD4BCAAF">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 16:49:10 UTC</createdTime>
+<ownerDesignName>Conceito</ownerDesignName>
+<engineerTo>
+<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="id_login" id="30246CBD-407C-D59B-616B-2DC96DBDABFE">
 <createdBy>labsfiap</createdBy>
 <createdTime>2025-09-25 01:05:12 UTC</createdTime>
@@ -100,8 +112,9 @@
 <createdBy>mathe</createdBy>
 <createdTime>2025-04-25 23:42:48 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
+<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5D2CA896-CF34-C55B-D84F-42A28ACB1F64" name="T_TAJ_LOGIN">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:10 UTC</createdTime>
+<generatorID>30426044-EF90-4B0C-E3C6-FC286631B4C7</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_login" id="A7D0520E-42D0-13D7-AD6D-C7E6C29ECB7C">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:10 UTC</createdTime>
+<generatorID>2C2EEAD9-870F-30A7-1CD0-233DD2D86AB1</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="user_login" id="203072E6-4B1F-0EBD-5BF0-DF4798420137">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:10 UTC</createdTime>
+<generatorID>AB29B22E-0322-65ED-9FA5-FA8E3D0A7994</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="senha_login" id="6AC23A10-C613-075B-F2C7-F6070C322BD3">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:10 UTC</createdTime>
+<generatorID>8BE6F007-F8B4-F4D1-8143-DE89621F6E66</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_login" id="FF270420-8E14-8A52-9652-91D4C5789996">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:10 UTC</createdTime>
+<generatorID>3808E8B7-63ED-ACD1-18D5-DFD73DFBA07A</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B95E54F-BD92-D036-0207-87215A5F621B" name="T_TAJ_LOGIN_PK">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:10 UTC</createdTime>
+<generatorID>E0F7A3C0-0FF3-42B4-794B-D9E2197A84E0</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7D0520E-42D0-13D7-AD6D-C7E6C29ECB7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

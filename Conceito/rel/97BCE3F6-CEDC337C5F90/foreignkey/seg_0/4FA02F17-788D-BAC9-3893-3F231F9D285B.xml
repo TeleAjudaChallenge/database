@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4FA02F17-788D-BAC9-3893-3F231F9D285B" containerWithKeyObject="1ABF4AD3-3F13-7491-202A-FA184A739C62" localFKIndex="B4A5BF09-A539-C460-B99D-4CE3F8DC62C7" name="T_TAJ_TICKET_T_TAJ_PACIENTE_FK">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 17:13:11 UTC</createdTime>
+<generatorID>4FD407BE-F8B4-595A-6828-C4B1C52CB4D2</generatorID>
+<ownerDesignName>Conceito</ownerDesignName>
+<referredTableLongName>T_TAJ_PACIENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2E3C7919-8E2F-01B1-3A93-4B0C721EC66C</referredTableID>
+<keyObject>0E320882-A86D-D69B-4FEE-6D2505C0BADA</keyObject>
+<referredKeyID>0E320882-A86D-D69B-4FEE-6D2505C0BADA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cpf_paciente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

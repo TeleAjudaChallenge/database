@@ -54,6 +54,20 @@
 <dataTypeSize>200</dataTypeSize>
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="resposta" id="81FF6AC3-5C8B-D4BA-F4F1-A4771A80DFE6">
+<createdBy>Julia</createdBy>
+<createdTime>2025-09-25 14:27:07 UTC</createdTime>
+<ownerDesignName>Conceito</ownerDesignName>
+<engineerTo>
+<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="dt_abertura" id="0CB61CF8-3FB1-D6DF-DE2D-D249ADE440CD">
 <createdBy>Julia</createdBy>
 <createdTime>2025-05-13 14:15:54 UTC</createdTime>
@@ -73,6 +87,7 @@
 <engineerTo>
 <item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
@@ -126,8 +141,9 @@
 <createdBy>Julia</createdBy>
 <createdTime>2025-05-13 14:15:07 UTC</createdTime>
 <ownerDesignName>Conceito</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="true"/>
+<item key="97BCE3F6-3F9F-188C-8F27-CEDC337C5F90" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
